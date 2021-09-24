@@ -102,7 +102,7 @@
     border: solid 2px $accent;
 
     &:before {
-      content: 'Scroll Down';
+      content: 'Arraste p/ Baixo';
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 10px;
@@ -443,7 +443,7 @@
         pointer-events: none;
 
         &:before {
-          content: 'last';
+          content: 'último';
           margin-left: 10px;
           opacity: 0.3;
           transition: $tr-md;

@@ -470,8 +470,7 @@ body {
         margin: 0 auto; }
         .qrt-app .qrt-preloader .qrt-preloader-content .qrt-logo img {
           width: 100%;
-          -webkit-filter: invert(100%) brightness(150%);
-                  filter: invert(100%) brightness(150%); }
+          }
       .qrt-app .qrt-preloader .qrt-preloader-content .progressbar-text {
         top: 30px !important;
         color: #f7f8f8 !important; }
@@ -1182,7 +1181,7 @@ body {
     border-radius: 15px;
     border: solid 2px #FF5C00; }
     .qrt-scroll-hint span:before {
-      content: 'Scroll Down';
+      content: 'Arraste ->';
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 10px;
@@ -1459,7 +1458,7 @@ body {
     .qrt-slider-navigation .qrt-slider-nav-btn.qrt-main-prev.swiper-button-disabled {
       pointer-events: none; }
       .qrt-slider-navigation .qrt-slider-nav-btn.qrt-main-prev.swiper-button-disabled:after {
-        content: 'first';
+        content: 'Primeiro';
         margin-right: 10px;
         opacity: 0.3;
         -webkit-transition: 0.4s ease-in-out;
@@ -1477,7 +1476,7 @@ body {
     .qrt-slider-navigation .qrt-slider-nav-btn.qrt-main-next.swiper-button-disabled {
       pointer-events: none; }
       .qrt-slider-navigation .qrt-slider-nav-btn.qrt-main-next.swiper-button-disabled:before {
-        content: 'last';
+        content: 'Último';
         margin-left: 10px;
         opacity: 0.3;
         -webkit-transition: 0.4s ease-in-out;
