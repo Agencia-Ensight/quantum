@@ -490,13 +490,13 @@ $(function() {
     var map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/stoscar/ckggs77460wxw19ob8q5wldwf',
-      center: [-79.394900, 43.643102],
+      center: [-48.569850, -25.890428],
       zoom: 14
 
     });
 
     var marker = new mapboxgl.Marker()
-      .setLngLat([-79.394900, 43.643102])
+      .setLngLat([-48.569850, -25.890428])
       .addTo(map);
   }
 
@@ -852,13 +852,13 @@ $(function() {
       var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/stoscar/ckggs77460wxw19ob8q5wldwf',
-        center: [-79.394900, 43.643102],
+        center: [-48.569850, -25.890428],
         zoom: 14
 
       });
 
       var marker = new mapboxgl.Marker()
-        .setLngLat([-79.394900, 43.643102])
+        .setLngLat([-48.569850, -25.890428])
         .addTo(map);
     }
   });
