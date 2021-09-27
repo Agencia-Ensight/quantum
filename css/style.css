@@ -3186,7 +3186,7 @@ plugins customization
       height: 110%; } }
 .mapboxgl-marker:after {
   position: absolute;
-  content: 'Quarty';
+  content: 'Quantum';
   -webkit-transform: translateX(-30%) translateY(10px);
           transform: translateX(-30%) translateY(10px);
   display: block;
